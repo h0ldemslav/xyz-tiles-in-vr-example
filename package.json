@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "preview": "npx vite preview",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "3d-tiles-renderer": "^0.4.14",
-    "three": "^0.179.1"
+    "three": "^0.173.0"
   },
   "devDependencies": {
     "vite": "^7.1.4"
