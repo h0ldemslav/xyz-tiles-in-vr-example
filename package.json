@@ -1,0 +1,19 @@
+{
+  "name": "xyz-tiles-in-vr-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "npx vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "3d-tiles-renderer": "^0.4.14",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.4"
+  }
+}
